@@ -1,0 +1,152 @@
+/* Base styles and CSS reset */
+* {
+    margin: 0; /* Removes default margin for all elements */
+    padding: 0; /* Removes default padding for all elements */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
+    font-family: 'Poppins', sans-serif; /* Sets a global font-family for the entire document */
+}
+
+body {
+    background-color: #f0f2f5; /* Sets a light background color for the page */
+    min-height: 100vh; /* Ensures the body takes up at least the full viewport height */
+    display: flex; /* Uses flexbox to align the content */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    padding: 20px; /* Adds some padding around the body */
+}
+
+/* Main container styling */
+.container {
+    background-color: white; /* Sets the background color to white for the main container */
+    border-radius: 12px; /* Rounds the corners of the container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the container */
+    width: 100%; /* Ensures the container takes up the full width */
+    max-width: 600px; /* Limits the maximum width of the container to 600px */
+    padding: 30px; /* Adds padding inside the container */
+    text-align: center; /* Centers the text inside the container */
+}
+
+/* Header styles */
+header {
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+h1 {
+    color: #333; /* Sets the header text color */
+    font-size: 2rem; /* Sets the font size */
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+/* Status section styles */
+.status {
+    background-color: #333; /* Sets the background color for the status section */
+    border-radius: 8px; /* Rounds the corners of the status section */
+    padding: 20px; /* Adds padding inside the status section */
+    margin-bottom: 30px; /* Adds space below the status section */
+    color: white; /* Sets the text color to white */
+}
+
+#rgb-value {
+    font-size: 1.8rem; /* Sets the font size of the RGB value */
+    font-weight: 600; /* Makes the RGB value text bold */
+    margin-bottom: 15px; /* Adds space below the RGB value */
+}
+
+.game-stats {
+    display: flex; /* Uses flexbox to align the game stats horizontally */
+    justify-content: space-between; /* Distributes the stats evenly across the container */
+    font-size: 1.2rem; /* Sets the font size of the game stats */
+}
+
+/* Color options container and individual options */
+.colors-container {
+    display: grid; /* Uses a grid layout for the color options */
+    grid-template-columns: repeat(2, 1fr); /* Creates a two-column layout */
+    gap: 15px; /* Adds space between the color options */
+    margin-bottom: 20px; /* Adds space below the color options */
+}
+
+.color-option {
+    height: 120px; /* Sets the height of each color option */
+    border-radius: 8px; /* Rounds the corners of each color option */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    transition: all 0.3s ease; /* Adds a smooth transition for all changes */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around each color option */
+}
+
+.color-option:hover {
+    transform: translateY(-5px); /* Moves the color option slightly up when hovered */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Increases the shadow effect on hover */
+}
+
+/* Feedback message styles */
+#feedback {
+    height: 40px; /* Sets the height for the feedback message */
+    margin: 15px 0; /* Adds vertical margins around the feedback message */
+    font-size: 1.2rem; /* Sets the font size */
+    font-weight: 600; /* Makes the text bold */
+}
+
+.correct {
+    color: #4CAF50; /* Sets the color to green for correct feedback */
+}
+
+.incorrect {
+    color: #F44336; /* Sets the color to red for incorrect feedback */
+}
+
+/* Control buttons */
+button {
+    background-color: #4361EE; /* Sets a blue background color for the button */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the default border */
+    padding: 12px 24px; /* Adds padding inside the button */
+    border-radius: 6px; /* Rounds the corners of the button */
+    font-size: 1rem; /* Sets the font size */
+    font-weight: 600; /* Makes the button text bold */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    transition: background-color 0.3s ease; /* Adds a smooth transition effect for the background color */
+}
+
+button:hover {
+    background-color: #3046C5; /* Changes the background color to a darker blue when hovered */
+}
+
+/* Game over modal styles */
+.modal {
+    display: none; /* Hides the modal by default */
+    position: fixed; /* Fixes the modal to the viewport */
+    top: 0; /* Aligns the modal to the top of the screen */
+    left: 0; /* Aligns the modal to the left of the screen */
+    width: 100%; /* Makes the modal take up the full width of the viewport */
+    height: 100%; /* Makes the modal take up the full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the modal */
+    justify-content: center; /* Centers the modal content */
+    align-items: center; /* Centers the modal content vertically */
+    z-index: 1000; /* Makes sure the modal appears on top of other elements */
+}
+
+.modal-content {
+    background-color: white; /* Sets the background color of the modal content */
+    padding: 30px; /* Adds padding inside the modal content */
+    border-radius: 12px; /* Rounds the corners of the modal */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adds a shadow around the modal content */
+    text-align: center; /* Centers the text inside the modal */
+    width: 90%; /* Makes the modal content take up 90% of the width */
+    max-width: 400px; /* Limits the maximum width of the modal content */
+}
+
+.modal h2 {
+    color: #333; /* Sets the text color of the modal header */
+    margin-bottom: 20px; /* Adds space below the modal header */
+}
+
+.modal p {
+    font-size: 1.2rem; /* Sets the font size for the modal text */
+    margin-bottom: 25px; /* Adds space below the modal text */
+}
+
+#play-again-btn {
+    margin-top: 10px; /* Adds space above the "Play Again" button */
+}
+

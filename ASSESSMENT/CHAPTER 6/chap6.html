@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Petrol Cost Calculator</h2>
+        <!-- Input field for petrol price per liter -->
+        <input type="number" id="pricePerLiter" value="1.72" step="0.01" min="0">
+        <br>
+        <!-- Input field for number of liters purchased -->
+        <input type="number" id="liters" value="0" step="0.01" min="0">
+        <br>
+        <!-- Button to calculate total cost -->
+        <button onclick="calculateTotal()">Calculate</button>
+        <!-- Paragraph to display the total cost -->
+        <p id="totalCost">Total Cost: AED 0.00</p>
+    </div>
+
+    <script src="script.js"></script>    <!--links to an external java script for functionality-->
+
+</body>
+</html>

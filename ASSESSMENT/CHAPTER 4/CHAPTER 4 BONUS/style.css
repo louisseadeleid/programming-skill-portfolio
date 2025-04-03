@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebf5;
+    color: #660033;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffb3d9;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px #cc0066;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.study-item {
+    background-color: #ffd6e8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 3px 3px 10px rgba(255, 105, 180, 0.5);
+}
+
+.study-item h2 {
+    color: #cc0066;
+}
+
+.study-item p {
+    font-size: 14px;
+}
+
+button {
+    background-color: #ff80bf;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffb3d9;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+}

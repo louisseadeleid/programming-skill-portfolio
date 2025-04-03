@@ -1,0 +1,199 @@
+/* Styling for the character section */
+#characters {
+    background: white; /* Sets a white background color */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 20px; /* Adds space inside the container */
+    max-width: 700px; /* Limits the width to prevent stretching */
+    margin: 30px auto; /* Centers the section horizontally */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    border: 2px solid #ff99cc; /* Adds a pink border */
+}
+
+/* Styling for the heading inside the character section */
+#characters h2 {
+    text-align: center; /* Centers the heading text */
+    color: #ff66b2; /* Sets the text color to pink */
+    font-size: 26px; /* Defines the font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for paragraphs inside the character section */
+#characters p {
+    font-size: 16px; /* Sets the font size */
+    line-height: 1.6; /* Improves readability with spacing */
+    color: #660033; /* Dark red color for text */
+    text-align: left; /* Aligns text to the left */
+    margin: 10px 0; /* Adds vertical spacing */
+}
+
+/* Styling for strong text inside paragraphs in the character section */
+#characters p strong {
+    color: #ff3399; /* Dark pink color */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* General body styling */
+body {
+    font-family: "Poppins", sans-serif; /* Sets the font style */
+    background-color: #ffe6f2; /* Light pink background */
+    color: #660033; /* Dark red text */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the page */
+    text-align: center; /* Centers the text globally */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ff99cc; /* Pink background */
+    padding: 15px; /* Adds padding */
+    border-radius: 10px; /* Rounds the corners */
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Displays items inline */
+    margin: 0 15px; /* Adds horizontal spacing */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underlines */
+    font-weight: bold; /* Makes the text bold */
+    color: white; /* Sets text color to white */
+    font-size: 18px; /* Sets font size */
+    padding: 10px; /* Adds padding inside links */
+    border-radius: 8px; /* Rounds the corners */
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #ff66b2; /* Darker pink on hover */
+    padding: 10px;
+}
+
+/* General section styling */
+.section {
+    background: white; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Adds padding inside */
+    max-width: 700px; /* Limits the width */
+    margin: 30px auto; /* Centers the section */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 2px solid #ff99cc; /* Pink border */
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 32px; /* Sets large font size */
+    color: #ff3399; /* Dark pink text */
+}
+
+h2 {
+    color: #ff66b2; /* Sets text color to pink */
+    font-size: 26px; /* Adjusts font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px; /* Sets font size */
+    line-height: 1.6; /* Improves readability */
+    color: #660033; /* Dark red text */
+}
+
+p em {
+    color: #ff3399; /* Dark pink text */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Styling for lists */
+ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+ul li {
+    background: #ffccdd; /* Light pink background */
+    color: #660033; /* Dark red text */
+    padding: 10px; /* Adds padding inside each list item */
+    margin: 5px 0; /* Adds vertical spacing */
+    border-radius: 10px; /* Rounds the corners */
+    font-weight: bold; /* Makes text bold */
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+ul li:hover {
+    background: #ff99cc; /* Slightly darker pink on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px; /* Adds spacing above footer */
+}
+
+/* Button styling */
+.button {
+    display: inline-block; /* Makes button inline but allows block styling */
+    padding: 10px 20px; /* Adds padding */
+    background-color: #ff66b2; /* Pink background */
+    color: white; /* White text */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text bold */
+    border-radius: 10px; /* Rounds the corners */
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: #ff3399; /* Darker pink on hover */
+}
+
+/* Overview section styling */
+#overview {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff99cc;
+}
+
+#overview h2 {
+    text-align: center;
+    color: #ff66b2;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#overview p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #660033;
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* Reviews section styling */
+#reviews {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff99cc;
+}
+
+#reviews h2 {
+    text-align: center;
+    color: #ff66b2;
+    font-size: 26px;
+    font-weight: bold;
+}

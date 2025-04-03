@@ -1,0 +1,18 @@
+/* Style applied to all <div> elements */
+div {
+  display: inline-block; /* Makes divs appear next to each other in a row */
+  font-family: sans-serif; /* Sets the font to a clean, modern sans-serif type */
+  font-size: 20px; /* Increases text size inside divs */
+  margin: 25px; /* Adds spacing around each div */
+  border: 4px solid black; /* Creates a thick black border around each div */
+  line-height: 100px; /* Centers text vertically within the div */
+  text-align: center; /* Centers text horizontally */
+  width: 200px; /* Sets a fixed width for each div */
+  height: 200px; /* Sets a fixed height for each div */
+}
+
+/* Style applied to the <body> element */
+body {
+  margin: 100px auto; /* Centers the content vertically and horizontally */
+  width: max-content; /* Ensures the body width fits only as much as needed */
+}

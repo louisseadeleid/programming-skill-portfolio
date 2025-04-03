@@ -1,0 +1,127 @@
+/* The style for the entire page */
+body {
+    font-family: "Poppins", sans-serif; /* Sets the font for the entire document */
+    background-color: #ffe6f2; /* Light pink background */
+    color: #660033; /* Dark maroon text color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Navigation bar styling */
+nav {
+    background: linear-gradient(135deg, #ff66b2, #ff99cc); /* Gradient background */
+    padding: 15px 0; /* Adds padding to the top and bottom */
+    text-align: center; /* Centers the navigation items */
+}
+
+/* Removes default list styles for navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styles for each navigation item */
+nav ul li {
+    display: inline; /* Displays items in a single row */
+    margin: 0 15px; /* Adds horizontal spacing */
+}
+
+/* Styles for navigation links */
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Sets font size */
+    font-weight: bold; /* Makes text bold */
+    padding: 8px 15px; /* Adds padding inside the link */
+    border-radius: 20px; /* Rounds the corners */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background: white;
+    color: #ff66b2; /* Changes text color to pink on hover */
+}
+
+/* Header section styling */
+header {
+    background: linear-gradient(135deg, #ff99cc, #ff66b2); /* Gradient background */
+    color: white; /* White text color */
+    text-align: center; /* Centers the text */
+    padding: 40px 10px; /* Adds padding */
+    font-size: 26px; /* Sets font size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow to the text */
+}
+
+/* Section styling */
+.section {
+    width: 80%; /* Limits section width to 80% of the page */
+    margin: 20px auto; /* Centers the section and adds vertical spacing */
+    padding: 20px; /* Adds space inside the section */
+    background-color: white; /* White background */
+    border-radius: 15px; /* Rounds the corners */
+    box-shadow: 0 5px 10px rgba(255, 105, 180, 0.3); /* Adds a pink shadow effect */
+    border: 2px dashed #ff66b2; /* Creates a dashed pink border */
+}
+
+/* Heading styles */
+h2 {
+    color: #ff3385; /* Pink color for subheadings */
+    border-bottom: 3px solid #ff66b2; /* Adds a pink bottom border */
+    padding-bottom: 5px; /* Adds space below the text */
+}
+
+h3 {
+    color: #ff3385; /* Pink color for sub-subheadings */
+}
+
+/* List styling */
+ul {
+    list-style-type: square; /* Uses square bullets */
+    padding-left: 20px; /* Adds indentation */
+}
+
+ul li {
+    color: #660033; /* Dark maroon text color */
+    font-size: 16px; /* Sets font size */
+}
+
+/* Styling for emphasized text */
+em {
+    color: #cc0066; /* Deep pink color */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Centers the footer content */
+    margin: 30px 0; /* Adds space above and below */
+}
+
+/* Button styling */
+.button {
+    display: inline-block; /* Makes button behave like a block while staying inline */
+    padding: 12px 20px; /* Adds padding */
+    font-size: 18px; /* Sets font size */
+    font-weight: bold; /* Makes text bold */
+    text-decoration: none; /* Removes underline */
+    color: white; /* White text color */
+    background-color: #ff66b2; /* Pink background */
+    border-radius: 30px; /* Rounds the corners */
+    box-shadow: 0 4px 6px rgba(255, 105, 180, 0.3); /* Adds a subtle shadow */
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+    box-shadow: 0 6px 10px rgba(255, 105, 180, 0.5); /* Increases shadow intensity */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .section {
+        width: 95%; /* Expands section width to use more screen space */
+    }
+}
